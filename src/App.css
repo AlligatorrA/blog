@@ -5,6 +5,12 @@
   text-align: center;
 } */
 
+span{
+  padding: 10px;
+  background-color: aquamarine;
+  font-size: 20px;
+  line-height: 51px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

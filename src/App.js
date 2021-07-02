@@ -1,27 +1,52 @@
 import './App.css';
-import React,{useState} from 'react'
+import React from 'react'
+import {BrowserRouter as Router, Link, Route } from "react-router-dom"
 // import User from "./User.js"
 
 
 
 
-//controlled Component in ReactJs
+//   Routing Setup
 
 
 function App() {
 
-const [val, setVal]=useState("")
-const [item, setItem]=useState("ooo")
+
+
+
 
   return (
     <div>
-      <h1>Controlled Component</h1>
-      <h1>{val}</h1>
-      <input type="text" value={val} onChange={(e)=>setVal(e.target.value)} /> <br />
-      <h1>{item} </h1>
-      <input type="text"  onChange={(e)=>setItem(e.target.value)} />
+      <Router>  
+        <Link to="/home" >Home</Link>
+        <br />
+        <Link to="/about" >About</Link>
+        <Route path="/home" >   < Home />    </Route>
+        <Route path="/about" > < About /> </Route>
+      
+     
+
+      </Router>
     </div>
   )
+}
+function Home() {
+  return(
+    <div>
+      <h1>Home </h1>
+      <p>This is home Page</p>
+    </div>
+  )
+  
+}
+function About() {
+  return(
+    <div>
+      <h1>About</h1>
+      <p>This is About page</p>
+    </div>
+  )
+  
 }
 
 export default App

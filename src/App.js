@@ -1,53 +1,67 @@
 import './App.css';
-import React from 'react'
-import {BrowserRouter as Router, Link, Route } from "react-router-dom"
-// import User from "./User.js"
+import React,{useEffect, useState} from 'react'
+// import User from './User';
+// import { BrowserRouter as Router, Link, Route  } from "react-router-dom"
 
 
 
 
-//   Routing Setup
+
+
+// Call get method API: Application programming Interphase
+
+
 
 
 function App() {
+ const [data , setData]=useState([]) 
 
+  useEffect(() => {
 
-
-
-
-  return (
-    <div>
-      <Router>  
-        <Link to="/home" >Home</Link>
-        <br />
-        <Link to="/about" >About</Link>
-        <Route path="/home" >   < Home />    </Route>
-        <Route path="/about" > < About /> </Route>
+    fetch("").then((result)=>{
+      result.json().then((resp)=>{
+        // console.log("result", resp)
+        setData(resp)
+      })
+    })
+    },[])
+  
       
-     
+    console.log(data)
+  return (
+    <div className="App" >
 
-      </Router>
+       <h1>Call get method API</h1>
+      
+     <table border="1px" >
+       <tbody>
+         <tr>
+           <td>ID</td>
+           <td>Name</td>
+           <td>Email</td>
+           <td>Mobile</td>
+         </tr>
+         {
+           data.map((item)=>
+           <tr>
+           <th>{item.userId}</th>
+           <th>{item.name}</th>
+           <th>{item.email}</th>
+           <th>{item.mobile}</th>
+         </tr>
+           )
+         }
+       </tbody>
+     </table>
+
+
+
     </div>
   )
 }
-function Home() {
-  return(
-    <div>
-      <h1>Home </h1>
-      <p>This is home Page</p>
-    </div>
-  )
-  
-}
-function About() {
-  return(
-    <div>
-      <h1>About</h1>
-      <p>This is About page</p>
-    </div>
-  )
-  
-}
+
+
+
 
 export default App
 

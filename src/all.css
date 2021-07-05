@@ -1,0 +1,150 @@
+
+
+:root{
+    --secondry-color:#0714a1;
+    --primary-color:  #000000;
+    --link-color:#0BE40D;
+    --bodytext-color:#012091;
+
+}
+body{
+    /* background-image: url(/src/Profile.png); */
+    /* background-repeat: no-repeat; */
+    /* background-position: right; */
+
+    background-color: var( --primary-color );
+    color: rgb(215, 220, 240);
+    width: 99%;
+    height: 100%;
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 1%;
+}
+.L1{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: var(--link-color) ;
+    border-radius: 1rem;
+    background-color:var(--primary-color);
+
+}
+.L2{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: var(--link-color) ;
+    border-radius: 1rem;
+    background-color:var(--primary-color);
+    
+
+}
+
+.non-bullets{
+    list-style: none;
+}
+.list-items-inline{
+    display: inline;
+    padding: 0.5rem 1rem;
+    
+}
+
+.navigation{
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    background-color: var(--secondry-color);
+    padding: 0.5rem;
+    
+  }
+  .non-bullets .nav-pills .L2{
+      text-align: right;
+      margin-top: 0rem;
+  }
+  .Link2{
+      text-align: end;
+  }
+  .navigation .link-active{
+    font-weight: bolder;
+}
+.navHead{
+     padding: 0.5rem;
+   color: blueviolet;
+}
+.navMain{
+    width: 100%;
+    
+}
+
+/* .homHead{
+    padding: 2rem;
+    border: 0rem;
+    margin: 5rem;
+} */
+.homMain .am{
+    margin-left:3rem;
+    margin-top: 10rem;
+    line-height:  1.634em; ;
+    color: var( --bodytext-color);
+}
+.homMain  .title{
+    font-size: 64px;
+}
+.homMain .title2{
+    font-size: 100px;
+}
+.navmain{
+    /* background-color: var(--secondry-color); */
+    width: 100%;
+    height: 100%;
+    
+}
+
+.navfoot{
+    background-color: aliceblue;
+    position: absolute;
+}
+main{
+    width: 100%;
+}
+footer {
+   /* position: static; */
+   position: 100%;
+
+}
+.mainwrite{
+    max-width: 100%;
+}
+.bloglink{
+    text-decoration: none;
+    text-align: center;
+    padding: 4rem;
+    font-size: 4rem;
+    margin-top: 3rem;
+    background-color: var(--link-color);
+    border-radius: 10rem;
+}
+.bloglink2{
+    text-decoration: #ffffff;
+    text-align: center;
+    padding: 4rem;
+    font-size: 4rem;
+    margin-top: 4rem;
+    background-color: var(--link-color);
+    border-radius: 10rem;
+}
+.mainwrite .poe{
+    text-decoration: none;
+}
+footer{
+    background-color: var(--secondry-color);
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    border-top: 2rem;
+    /* color: rgb(245, 16, 16); */
+}
+.footlink{
+    color: whitesmoke;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+

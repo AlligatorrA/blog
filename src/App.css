@@ -1,9 +1,7 @@
-.App {
-  text-align: center;
-}
-/* .src-index {
-  text-align: center;
-} */
+
+
+ 
+ 
 
 span{
   padding: 10px;
@@ -23,7 +21,7 @@ span{
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2257c0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -34,8 +32,16 @@ span{
 }
 
 .App-link {
-  color: #61dafb;
+  color: #c7ecf7;
 }
+.Appmain{
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
 
 @keyframes App-logo-spin {
   from {

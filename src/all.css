@@ -39,7 +39,9 @@ body{
 }
 
 .non-bullets{
+    /* width: 50%; */
     list-style: none;
+    
 }
 .list-items-inline{
     display: inline;
@@ -48,18 +50,21 @@ body{
 }
 
 .navigation{
+
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     background-color: var(--secondry-color);
     padding: 0.5rem;
     
   }
-  .non-bullets .nav-pills .L2{
-      text-align: right;
+  .non-bullets .nav-pills{
+      /* text-align: right; */
       margin-top: 0rem;
+      margin-right: auto;
   }
-  .Link2{
-      text-align: end;
+  .L2{
+      text-align: right;
+      /* margin-bottom: 4rem; */
   }
   .navigation .link-active{
     font-weight: bolder;
@@ -139,6 +144,8 @@ footer{
     font-size: 3rem;
     margin-top: 2rem;
     border-top: 2rem;
+    border-bottom-left-radius: 2rem;
+    /* border-bottom-right-radius: 2rem; */
     /* color: rgb(245, 16, 16); */
 }
 .footlink{

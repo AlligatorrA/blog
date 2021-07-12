@@ -5,6 +5,7 @@
     --primary-color:  #000000;
     --link-color:#0BE40D;
     --bodytext-color:#012091;
+    --tertiary-color:blueviolet;
 
 }
 body{
@@ -18,7 +19,7 @@ body{
     height: 100%;
     font-weight: 900;
     font-size: 20px;
-    margin-left: 1%;
+    margin-left: 1rem;
 }
 .L1{
     text-decoration: none;
@@ -34,7 +35,7 @@ body{
     color: var(--link-color) ;
     border-radius: 1rem;
     background-color:var(--primary-color);
-    
+    float: right;
 
 }
 
@@ -62,10 +63,7 @@ body{
       margin-top: 0rem;
       margin-right: auto;
   }
-  .L2{
-      text-align: right;
-      /* margin-bottom: 4rem; */
-  }
+  
   .navigation .link-active{
     font-weight: bolder;
 }
@@ -83,10 +81,20 @@ body{
     border: 0rem;
     margin: 5rem;
 } */
+.am  .hompara{
+    font-size: xx-large;
+    margin-bottom: 0rem;
+}
+.homMain .img{
+    text-align: right;
+    background-image: url(/src/Profile2.png);
+    background-repeat: no-repeat;
+    
+}
 .homMain .am{
-    margin-left:3rem;
+    margin-left:10rem;
     margin-top: 10rem;
-    line-height:  1.634em; ;
+     
     color: var( --bodytext-color);
 }
 .homMain  .title{
@@ -122,7 +130,7 @@ footer {
     text-align: center;
     padding: 4rem;
     font-size: 4rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
     background-color: var(--link-color);
     border-radius: 10rem;
 }
@@ -131,7 +139,7 @@ footer {
     text-align: center;
     padding: 4rem;
     font-size: 4rem;
-    margin-top: 4rem;
+    margin-top: 5rem;
     background-color: var(--link-color);
     border-radius: 10rem;
 }
@@ -142,9 +150,10 @@ footer{
     background-color: var(--secondry-color);
     text-align: center;
     font-size: 3rem;
-    margin-top: 2rem;
+    margin-top: 6rem;
     border-top: 2rem;
     border-bottom-left-radius: 2rem;
+    margin-bottom: 0rem;
     /* border-bottom-right-radius: 2rem; */
     /* color: rgb(245, 16, 16); */
 }
@@ -152,6 +161,93 @@ footer{
     color: whitesmoke;
     margin-left: 2rem;
     margin-right: 2rem;
+    margin-top: 40rem;
+}
+.works{
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: 2rem;
+}
+.heading{
+    text-align: center;
+    display: block;
+    font-size:4rem;
+    background-color: var(--tertiary-color);
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.heading span{
+    font-size:4rem;
+    color: #0BE40D;
+    background-color: var(--tertiary-color);
+    
+}
+.codlink{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: var(--link-color) ;
+    border-radius: 1rem;
+    background-color:var(--tertiary-color);
+    margin-left:1rem;
+    margin-right: auto;
+}
+hr{
+    
+    max-width: 800px;
+    margin-top: 2rem;
+}
+.worsec{
+    max-width: 700px;
+    display: block;
+    margin: auto;
+}
+.worsec1{
+    text-shadow: 1px 1px 2px black ;
+    padding: 2rem;
+    background-image: url(/src/British\ Wapaper.jpg);
+     
+}
+.worsec2{
+    padding: 2rem;
+    text-shadow: 1px 1px 2px black ;
+    background-image: url(/src/Emoji.jpg);
+    background-repeat: no-repeat;
+    /* text-align: center; */
+    max-width: 750px;
+    display: block;
+    margin: auto;
 }
 
-
+.worpa{
+    padding: 4rem;
+    text-shadow: 1px 1px 2px black ;
+    max-width: 800px;
+    margin: auto;
+    display: block;
+}
+.homsec{
+   background-image: url(/src/Technology.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.homtec{
+    margin-bottom:0rem ;
+    text-align: center;
+    font-size: 4rem;
+}
+.hompa{
+   
+    padding: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px  black ;
+    max-width: 600px;
+    margin: auto;
+    display: block;
+}

@@ -17,34 +17,32 @@ function Nav() {
                     <li className="list-items-inline"  >
                         <Link to="/My Components/Home" className="L1" > Home </Link>
                     </li>
-                    <li className="list-items-inline"  >
+                    {/* <li className="list-items-inline"  >
                         <Link to="/My Components/About" className="L1">  About </Link>
-                    </li>
+                    </li> */}
                     <li className="list-items-inline"  >
                         <Link to="/My Components/Work" className="L1"> Projects </Link>
                     </li>
                     <li className="list-items-inline" >
                         <Link to="/My Components/Write" className="L1"> Writes </Link>
                     </li>
-                    
-                    
-                   
-                    
-                  <Link to="/My Components/contact" className="L2" style={{float:"right"}} > Contact </Link>
-                  
+
+                    <Link to="/My Components/contact" className="L2"  > Contact </Link>
 
                 </ul>
 
 
 
             </nav>
-            <main className="navmain"style={{width:"auto"}} >
+            <main className="navmain" style={{ width: "auto" }} >
+
+              
 
 
 
             </main>
 
-            
+
 
 
 

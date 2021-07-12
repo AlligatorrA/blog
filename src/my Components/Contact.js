@@ -10,7 +10,7 @@ function Contact() {
             <main className="contMain"  >
 
 
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea earum blanditiis voluptatibus, dolore reprehenderit voluptatum ab tempora! Quae corrupti cupiditate ducimus asperiores rerum.</p>
+            <p style={{textAlign:"center" , fontSize:"4rem" }} > <strong>Working on it </strong> </p>
             </main>
 
             <footer className="ContFoot" >

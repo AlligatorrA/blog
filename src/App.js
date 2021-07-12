@@ -15,6 +15,7 @@ import Write from "./my Components/Write";
 
 
 
+
 function App() {
 
   return (
@@ -37,15 +38,14 @@ function App() {
         </div>
       </nav>
         <main>
-
+        <div class="img">
+        
+              </div>
         </main>
       
       <footer className="Appfoot">
    
-{/* <a href="https://www.facebook.com"
-    className="youtube social">
-    <FontAwesomeIcon icon={faFacebook} size="1x" />
-</a> */}
+
 
 </footer>
       

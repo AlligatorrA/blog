@@ -36,19 +36,8 @@ function Nav() {
             </nav>
             <main className="navmain" style={{ width: "auto" }} >
 
-              
-
-
-
+            
             </main>
-
-
-
-
-
-
-
-
 
 
         </ >

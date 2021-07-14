@@ -15,15 +15,15 @@ body{
 
     background-color: var( --primary-color );
     color: rgb(215, 220, 240);
-    width: 99%;
-    height: 100%;
+    width: auto;
+    /* height: 100%; */
     font-weight: 900;
-    font-size: 20px;
-    margin-left: 1rem;
+    /* font-size: 20px; */
+    /* margin-left: 1rem; */
 }
 .L1{
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     color: var(--link-color) ;
     border-radius: 1rem;
     background-color:var(--primary-color);
@@ -31,8 +31,9 @@ body{
 }
 .L2{
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     color: var(--link-color) ;
+    /* margin: 1rem; */
     border-radius: 1rem;
     background-color:var(--primary-color);
     float: right;
@@ -45,31 +46,32 @@ body{
     
 }
 .list-items-inline{
+    
     display: inline;
-    padding: 0.5rem 1rem;
+    padding: 1rem 0.5rem;
+    margin: auto;
     
 }
 
 .navigation{
-
+    /* max-width: 100%; */
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     background-color: var(--secondry-color);
-    padding: 0.5rem;
+    padding: 0.6rem;
+   
     
   }
   .non-bullets .nav-pills{
       /* text-align: right; */
-      margin-top: 0rem;
-      margin-right: auto;
+      margin-top: 2rem;
+      margin-right: 2rem;
   }
   
-  .navigation .link-active{
-    font-weight: bolder;
-}
+  
 .navHead{
      padding: 0.5rem;
-   color: blueviolet;
+   color: rgb(162, 161, 163);
 }
 .navMain{
     width: 100%;
@@ -85,23 +87,26 @@ body{
     font-size: xx-large;
     margin-bottom: 0rem;
 }
-.homMain .img{
-    text-align: right;
-    background-image: url(/src/Profile2.png);
-    background-repeat: no-repeat;
-    
+.homMain{
+    margin-left: 2rem;
+    max-width: 900px;
+    margin: auto;
 }
+
 .homMain .am{
-    margin-left:10rem;
-    margin-top: 10rem;
+   max-width: 100%;
+   margin-left: auto;
+   margin-right: auto;
      
     color: var( --bodytext-color);
 }
 .homMain  .title{
     font-size: 64px;
+    margin-left: 2rem;
 }
 .homMain .title2{
     font-size: 100px;
+    margin-left: 2rem;
 }
 .navmain{
     /* background-color: var(--secondry-color); */

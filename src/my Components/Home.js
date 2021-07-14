@@ -18,7 +18,7 @@ function Home() {
             </header>
 
             <main className="homMain" >
-                <div className="img">  </div>
+                
                 
                 <div className="am">
                     <h2 className="title" > Hi,  I'm Anand.</h2>

@@ -17,9 +17,7 @@ function Nav() {
                     <li className="list-items-inline"  >
                       <button> <Link to="/My Components/Home" className="L1" > Home </Link></button> 
                     </li>
-                    {/* <li className="list-items-inline"  >
-                        <Link to="/My Components/About" className="L1">  About </Link>
-                    </li> */}
+                    
                     <li className="list-items-inline"  >
                     <button>  <Link to="/My Components/Work" className="L1"> Projects </Link></button> 
                     </li>
@@ -34,10 +32,7 @@ function Nav() {
 
 
             </nav>
-            <main className="navmain" style={{ width: "auto" }} >
-
             
-            </main>
 
 
         </ >

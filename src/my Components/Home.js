@@ -20,7 +20,7 @@ function Home() {
                 
                 <div className="am">
                     <h2 className="title" > Hi,  I'm Anand.</h2>
-                    <h1 className="title2">Web <strong>Developer</strong> </h1>
+                    <p className="title2">Web Developer</p>
                     <p className="hompara">  I love web development & designs  sometimes Writing </p>
 
                   
@@ -28,7 +28,7 @@ function Home() {
                 
                 
                 <section className="homsec" >
-                    <h1 className="homtec" >Technologies</h1>
+                    <p className="homtec" >Technologies</p>
                     <hr />
                     <p className="hompa">I love to code from scraches and beutify the Website appearance. I am familiar with HTML, CSS, Bootstrap, NodeJS, ReactJS, GitHub and Web Hosting </p>
                 </section>

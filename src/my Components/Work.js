@@ -21,7 +21,7 @@ function Work() {
             <hr />
             <p className="worpa">How much you know me.It's for fun. built-in javaScript.</p>
              <button className="btn1"> <a className="codlink" href="https://replit.com/@Alligatorr/end-game#index.js"> Code </a> </button>
-             <button className="btn1">  <a className="codlink" href="https://replit.com/@Alligatorr"> Play</a> </button>
+             <button className="btn1">  <a className="codlink" href="https://replit.com/@Alligatorr/end-game?v=1"> Play</a> </button>
             
             </section>
 
@@ -73,18 +73,18 @@ function Work() {
             <button className="btn1">  <a className="codlink" href="https://fav-webseries.netlify.app"> ▶️ Live Project</a> </button> 
             </section>
             <section className="worsec2" >   
-            <h1>Good Books</h1>
+            <h1>The Originals Fan Game</h1>
             <hr />
-            <p className="worpa">Lets Play this game Your Birthday Lucky or Not.just for fun. built-in pure javaScript.</p>
-            <button className="btn2"> <a className="codlink2" href="https://github.com/AlligatorrA/GoodBooks.git"> Code</a>  </button> 
-            <button className="btn2">  <a className="codlink2" href="https://60efaa3005dafc895001fdf1--goodbooksbyanand.netlify.app/"> ▶️ Live Project</a> </button> 
+            <p className="worpa">This quiz is for "The Originals" webshows fan If you are fan of the great evil "klaus Mikealson" You should must play this quiz.This quiz is fun only . built-in pure javaScript.</p>
+            <button className="btn2"> <a className="codlink2" href="https://replit.com/@Alligatorr/TheOriginalsFansGame-1#index.js"> Code</a>  </button> 
+            <button className="btn2">  <a className="codlink2" href="https://replit.com/@Alligatorr/TheOriginalsFansGame?v=1"> ▶️ Live Project</a> </button> 
             </section>
             <section className="worsec1" >   
-            <h1>Favourite Webseries</h1>
+            <h1>Profit and loss</h1>
             <hr />
-            <p className="worpa">Lets Play this game Your Birthday Lucky or Not.just for fun. built-in pure javaScript.</p>
-            <button className="btn1"> <a className="codlink" href="https://github.com/AlligatorrA/Fav-Webseries.git"> Code</a>  </button> 
-            <button className="btn1">  <a className="codlink" href="https://fav-webseries.netlify.app"> ▶️ Live Project</a>  </button> 
+            <p className="worpa">This app Profit and Loss tells you how much profit or loss you have made along with percentage based on current price, number of Product and the purchase price. built-in pure javaScript.</p>
+            <button className="btn1"> <a className="codlink" href="https://github.com/AlligatorrA/ProfitAndLoss.git"> Code</a>  </button> 
+            <button className="btn1">  <a className="codlink" href="https://alliprofitloss.netlify.app/"> ▶️ Live Project</a>  </button> 
             </section>
         </div>
             <a  href="#heading" style={{fontSize:"3rem", margin:"2rem", textAlign: "end"}}> ⬆️</a>

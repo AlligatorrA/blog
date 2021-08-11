@@ -119,9 +119,10 @@ button :hover{
 }
 
 .homMain  .title{
-    font-size: 64px;
+    font-size: 3rem;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1rem;
 }
 .homMain .title2{
     font-size: 5rem;
@@ -193,16 +194,16 @@ footer{
     margin-right:auto ;
     text-align: center;
     display: block;
-    font-size:4rem;
+    font-size:3.8rem;
     background-color: var(--link-color);
     padding: 0.5rem;
-    margin-top: 13rem;
+    margin-top: 15rem;
     margin-bottom: 13rem;
     border-radius: 2rem;
     
 }
 #heading span{
-    font-size:4rem;
+    font-size:3.8rem;
     color: #021b03;
     background-color: var(--link-color);
     

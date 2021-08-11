@@ -16,6 +16,7 @@ import Write from "./my Components/Write";
 
 
 
+
 function App() {
 
   return (
@@ -37,17 +38,12 @@ function App() {
 
         </div>
       </nav>
-        <main>
-        <div class="img">
         
-              </div>
-        </main>
-      
-      <footer className="Appfoot">
+      {/* <footer className="Appfoot">
    
 
 
-</footer>
+</footer> */}
       
      
     </ >
@@ -55,9 +51,12 @@ function App() {
 }
 function PageNotFound() {
   return (
-    <div style={{ textAlign: "center" }} >
-      <h1>  <i> Working on it mate</i>  </h1>
-    </div>
+    <main>
+        <div class="img">
+        <h1 className="appDivImg">  <i> Welcome to my portfolio</i>  </h1>
+              </div>
+        </main>
+      
   )
 
 }

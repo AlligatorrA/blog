@@ -13,9 +13,7 @@ import {
 function Home() {
     return (
         <div>
-            <header className="homHead" >
-
-            </header>
+            
 
             <main className="homMain" >
                 

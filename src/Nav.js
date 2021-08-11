@@ -15,19 +15,19 @@ function Nav() {
                 <ul className="non-bullets nav-pills" >
 
                     <li className="list-items-inline"  >
-                        <Link to="/My Components/Home" className="L1" > Home </Link>
+                      <button> <Link to="/My Components/Home" className="L1" > Home </Link></button> 
                     </li>
                     {/* <li className="list-items-inline"  >
                         <Link to="/My Components/About" className="L1">  About </Link>
                     </li> */}
                     <li className="list-items-inline"  >
-                        <Link to="/My Components/Work" className="L1"> Projects </Link>
+                    <button>  <Link to="/My Components/Work" className="L1"> Projects </Link></button> 
                     </li>
                     <li className="list-items-inline" >
-                        <Link to="/My Components/Write" className="L1"> Writes </Link>
+                    <button>   <Link to="/My Components/Write" className="L1"> Writes </Link></button> 
                     </li>
 
-                    <Link to="/My Components/contact" className="L2"  > Contact </Link>
+                    <button className="btn">  <Link to="/My Components/contact" className="L2"  > Contact </Link></button> 
 
                 </ul>
 

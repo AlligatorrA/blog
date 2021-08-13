@@ -22,17 +22,17 @@ function Write() {
                 </section>
             </main>
             <footer >
-                <div >    
-                <a className="footlink" href="https://github.com/AlligatorrA">
-                    <FontAwesomeIcon icon={faGithub} size="0.5x" />
-                </a>
-                <a className="footlink" href="https://twitter.com/Aryakkhauj" >
-                    <FontAwesomeIcon icon={faTwitter} size="0.5x" />
-                </a>
-                <a className="footlink" href="https://www.linkedin.com/in/anand-raj-b10599171/">
-                   <FontAwesomeIcon icon={faLinkedin} size="0.5x" />
-                </a>
-                 </div>
+                <div >
+                    <a className="footlink" href="https://github.com/AlligatorrA">
+                        <FontAwesomeIcon icon={faGithub} size="0.5x" />
+                    </a>
+                    <a className="footlink" href="https://twitter.com/Aryakkhauj" >
+                        <FontAwesomeIcon icon={faTwitter} size="0.5x" />
+                    </a>
+                    <a className="footlink" href="https://www.linkedin.com/in/anand-raj-b10599171/">
+                        <FontAwesomeIcon icon={faLinkedin} size="0.5x" />
+                    </a>
+                </div>
             </footer>
         </div>
     )

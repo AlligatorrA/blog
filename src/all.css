@@ -56,14 +56,14 @@ button :hover{
     transition: all 0.4s ease 0s
 }
 .L1{
-    /* font-size: 1rem; */
+   
     text-decoration: none;
     color: var(--tertiary-color);
     font-weight: 800;
     
 }
 .L2{
-    /* font-size: 1rem; */
+    
     text-decoration: none;
     color: var(--tertiary-color);
     font-weight: 800;
@@ -115,7 +115,7 @@ button :hover{
     margin-right: auto;
     margin-top: 10rem;
     max-width: 90%;
-    /* margin: auto; */
+    
 }
 
 .homMain  .title{
@@ -130,7 +130,7 @@ button :hover{
     margin-right: auto;
     max-width: 900px;
     margin-top: 0rem;
-    /* margin-bottom: 0rem; */
+    
 }
 
 

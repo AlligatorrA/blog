@@ -13,44 +13,44 @@ import {
 function Home() {
     return (
         <div>
-            
+
 
             <main className="homMain" >
-                
-                
+
+
                 <div className="am">
                     <h2 className="title" > Hi,  I'm Anand.</h2>
                     <p className="title2">Web Developer</p>
                     <p className="hompara">  I love web development & designs  sometimes Writing !! </p>
 
-                  
+
                 </div>
-                
-                
+
+
                 <section className="homsec" >
                     <p className="homtec" >Technologies</p>
                     <hr />
-                    <p className="hompa">I love to code from scraches and beutify the Website appearance. I am familiar with HTML, CSS, Bootstrap, NodeJS, ReactJS, GitHub and Web Hosting </p>
+                    <p className="hompa"> I love to code and beutify the Website appearance. I am familiar with HTML, CSS, Bootstrap, NodeJS, ReactJS, GitHub and Web Hosting </p>
                 </section>
 
             </main>
             <footer >
-                <div >    
-                <a className="footlink" href="https://github.com/AlligatorrA">
-                    <FontAwesomeIcon icon={faGithub} size="1x" />
-                </a>
-                <a className="footlink" href="https://twitter.com/Aryakkhauj" >
-                    <FontAwesomeIcon icon={faTwitter} size="1x" />
-                </a>
-                <a className="footlink" href="https://www.linkedin.com/in/anand-raj-b10599171/">
-                   <FontAwesomeIcon icon={faLinkedin} size="1x" />
-                </a>
-                 </div>
+                <div >
+                    <a className="footlink" href="https://github.com/AlligatorrA">
+                        <FontAwesomeIcon icon={faGithub} size="1x" />
+                    </a>
+                    <a className="footlink" href="https://twitter.com/Aryakkhauj" >
+                        <FontAwesomeIcon icon={faTwitter} size="1x" />
+                    </a>
+                    <a className="footlink" href="https://www.linkedin.com/in/anand-raj-b10599171/">
+                        <FontAwesomeIcon icon={faLinkedin} size="1x" />
+                    </a>
+                </div>
             </footer>
 
-            
+
         </div>
-        
+
     )
 }
 

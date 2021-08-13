@@ -10,7 +10,7 @@ function Contact() {
             <main className="contMain"  >
 
 
-            <p style={{textAlign:"center" , fontSize:"4rem", justifyContent:"center", marginTop:"20rem" }} > <strong>Working on it,mate! </strong> </p>
+                <p style={{ textAlign: "center", fontSize: "4rem", justifyContent: "center", marginTop: "20rem" }} > <strong>Working on it,mate! </strong> </p>
             </main>
 
             <footer className="ContFoot" >

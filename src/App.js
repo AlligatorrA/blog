@@ -38,11 +38,7 @@ function App() {
         </div>
       </nav>
 
-      {/* <footer className="Appfoot">
-   
 
-
-</footer> */}
 
 
     </ >

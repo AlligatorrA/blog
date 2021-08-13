@@ -47,9 +47,9 @@ function App() {
 function PageNotFound() {
   return (
     <main>
-      <div class="img">
+     
         <h1 className="appDivImg">  <i> Welcome to my portfolio</i>  </h1>
-      </div>
+     
     </main>
 
   )

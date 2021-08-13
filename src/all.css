@@ -1,17 +1,18 @@
 
 
 :root{
-    --secondry-color:#033323;
-    --primary-color:  #000000;
-    --link-color:#16df16;
-    --bodytext-color:#e8ebf7;
-    --tertiary-color:rgb(19, 161, 226);
+    --secondry-color:#000000bd;
+    --primary-color:  #0000ff;
+    --link-color:#000086;
+    --bodytext-color:#dee1ec;
+    --tertiary-color:#6039d4bd;
 
 }
 body{
    
 
     background-color: var( --primary-color );
+    /* background-image: url(https://i.redd.it/woi8oyp0cih41.jpg); */
     color: rgb(245, 245, 245);
     width: auto;
     font-weight: 900;
@@ -27,9 +28,7 @@ button{
 }
 .btn{
     text-decoration: none;
-    /* padding: 0.5rem 0.5rem; */
-    color: whitesmoke ;
-    
+    color: whitesmoke;
     border-radius: 1rem;
     background-color:var(--primary-color);
     float: right;
@@ -39,7 +38,7 @@ button{
     font-size: 1.1rem;
     text-decoration: none;
     border-radius: 1rem;
-    background-color:var(--tertiary-color);
+    background-color:var(--primary-color);
 }
 .btn1{
     font-size: 1.1rem;
@@ -58,14 +57,14 @@ button :hover{
 .L1{
    
     text-decoration: none;
-    color: var(--tertiary-color);
+    color: var(--bodytext-color);
     font-weight: 800;
     
 }
 .L2{
     
     text-decoration: none;
-    color: var(--tertiary-color);
+    color: var(--bodytext-color);
     font-weight: 800;
 }
 .non-bullets{
@@ -82,8 +81,8 @@ button :hover{
 }
 
 .navigation{
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
     background-color: var(--secondry-color);
     padding: 0.9rem;
     
@@ -137,10 +136,7 @@ button :hover{
 main{
     width: 100%;
 }
-footer {
-   position: 100%;
 
-}
 .mainwrite{
     max-width: 100%;
     
@@ -155,7 +151,7 @@ footer {
     border-radius: 10rem;
 }
 .bloglink2{
-    text-decoration: #ffffff;
+    text-decoration: none;
     text-align: center;
     padding: 4rem;
     font-size: 3rem;
@@ -166,18 +162,21 @@ footer {
 }
 .mainwrite .poe{
     text-decoration: none;
+    color: var(--bodytext-color);
 }
 footer{
-    background-color: var(--secondry-color);
+    /* background-color: var(--secondry-color); */
+    background-color: #273a41;
+    position: 100%;
     text-align: center;
     font-size: 3rem;
     margin-top: 4rem;
     border-top: 2rem;
     border-bottom-left-radius: 2rem;
-    margin-bottom: 0rem;
+    /* margin-bottom: 0rem; */
 }
 .footlink{
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 40rem;
@@ -220,9 +219,9 @@ footer{
 .codlink2{
     text-decoration: none;
     padding: 0.5rem ;
-    color: var(--primary-color) ;
+    color: var(--link-color) ;
     border-radius: 1rem;
-    background-color:var(--tertiary-color);
+    background-color:var(--primary-color);
     margin-left:auto;
     margin-right: auto;
 }
@@ -289,19 +288,9 @@ hr{
     margin: auto;
     display: block;
 }
-.img{
-    font-size: 3rem;
-    background-image: url(/src/Profile.png);
-    text-align: center;
-    padding-bottom: 29rem;
-    background-repeat: no-repeat;
-    justify-content: center;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
+
 .appDivImg {
-margin-top: 5rem;
+font-size: 4rem;
+margin-top: 20rem;
 text-align:center ;
 }

@@ -63,7 +63,7 @@ function Work() {
                     <p className="worpa">Books you Should read If you are fan of Thrill or Biotechnology or Action. just for fun. built-in React js.</p>
                     <button className="btn2"> <a className="codlink2" href="https://github.com/AlligatorrA/GoodBooks.git"> Code</a>  </button>
 
-                    <button className="btn2">  <a className="codlink2" href="https://60efaa3005dafc895001fdf1--goodbooksbyanand.netlify.app/"> ▶️ Live Project</a>  </button>
+                    <button className="btn2">  <a className="codlink2" href="https://allligoodbooks.netlify.app/"> ▶️ Live Project</a>  </button>
                 </section>
                 <section className="worsec1" >
                     <h1>Favourite Webseries</h1>

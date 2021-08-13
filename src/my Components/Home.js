@@ -21,7 +21,7 @@ function Home() {
                 <div className="am">
                     <h2 className="title" > Hi,  I'm Anand.</h2>
                     <p className="title2">Web Developer</p>
-                    <p className="hompara">  I love web development & designs  sometimes Writing </p>
+                    <p className="hompara">  I love web development & designs  sometimes Writing !! </p>
 
                   
                 </div>

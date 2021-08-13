@@ -27,7 +27,7 @@ button{
 }
 .btn{
     text-decoration: none;
-    padding: 0.5rem 0.5rem;
+    /* padding: 0.5rem 0.5rem; */
     color: whitesmoke ;
     
     border-radius: 1rem;
@@ -56,14 +56,14 @@ button :hover{
     transition: all 0.4s ease 0s
 }
 .L1{
-    font-size: 1rem;
+    /* font-size: 1rem; */
     text-decoration: none;
     color: var(--tertiary-color);
     font-weight: 800;
     
 }
 .L2{
-    font-size: 1rem;
+    /* font-size: 1rem; */
     text-decoration: none;
     color: var(--tertiary-color);
     font-weight: 800;
@@ -149,8 +149,8 @@ footer {
     text-decoration: none;
     text-align: center;
     padding: 4rem;
-    font-size: 4rem;
-    margin-top: 5rem;
+    font-size: 3rem;
+    margin-top: 3rem;
     background-color: var(--link-color);
     border-radius: 10rem;
 }
@@ -158,9 +158,9 @@ footer {
     text-decoration: #ffffff;
     text-align: center;
     padding: 4rem;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-top: 5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     background-color: var(--link-color);
     border-radius: 10rem;
 }
@@ -197,7 +197,7 @@ footer{
     font-size:3.8rem;
     background-color: var(--link-color);
     padding: 0.5rem;
-    margin-top: 15rem;
+    margin-top: 8rem;
     margin-bottom: 13rem;
     border-radius: 2rem;
     

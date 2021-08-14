@@ -1,7 +1,6 @@
 import React from 'react';
 import "./App"
 import "./all.css"
-// import Home from './my Components/Home';
 
 
 import { Link } from "react-router-dom";

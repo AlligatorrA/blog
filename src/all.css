@@ -3,22 +3,24 @@
 :root{
     --secondry-color:#000000bd;
     --primary-color:  #0000ff;
-    --link-color:#000086;
+    --link-color:#1c1ce6;
     --bodytext-color:#dee1ec;
     --tertiary-color:#6039d4bd;
 
 }
 body{
-   
-
-    background-color: var( --primary-color );
     /* background-image: url(https://i.redd.it/woi8oyp0cih41.jpg); */
+    background-image: linear-gradient( blue, white);
+    max-width: 600rem;
+    margin-left: auto;
+    margin-right: auto;
     color: rgb(245, 245, 245);
     width: auto;
     font-weight: 900;
    
 }
 button{
+    text-align: center;
     text-decoration: none;
     padding: 0.5rem 0.5rem;
     color: var(--secondry-color) ;
@@ -81,9 +83,9 @@ button :hover{
 }
 
 .navigation{
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-    background-color: var(--secondry-color);
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    background-image:linear-gradient(to left, rgb(125, 221, 216), lawngreen);
     padding: 0.9rem;
     
     
@@ -131,8 +133,6 @@ button :hover{
     margin-top: 0rem;
     
 }
-
-
 main{
     width: 100%;
 }
@@ -147,7 +147,8 @@ main{
     padding: 4rem;
     font-size: 3rem;
     margin-top: 3rem;
-    background-color: var(--link-color);
+    background-image: linear-gradient(to left,rgb(0, 133, 126),lawngreen, rgb(0, 160, 152));
+    /* background-color: var(--link-color); */
     border-radius: 10rem;
 }
 .bloglink2{
@@ -157,29 +158,34 @@ main{
     font-size: 3rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    background-color: var(--link-color);
+    /* background-color: var(--link-color); */
+    background-image: linear-gradient(to left,rgb(0, 146, 139),lawngreen, rgb(0, 131, 124));
     border-radius: 10rem;
 }
 .mainwrite .poe{
     text-decoration: none;
-    color: var(--bodytext-color);
+    color: #000;
+    /* color: var(--bodytext-color); */
 }
 footer{
-    /* background-color: var(--secondry-color); */
-    background-color: #273a41;
-    position: 100%;
+    background-image: linear-gradient(to left,lawngreen, rgb(125, 221, 216));
+    position: absolute;
+    width: 99%;
     text-align: center;
     font-size: 3rem;
     margin-top: 4rem;
     border-top: 2rem;
     border-bottom-left-radius: 2rem;
-    /* margin-bottom: 0rem; */
+    border-bottom-right-radius: 2rem;
 }
 .footlink{
     color: rgb(0, 0, 0);
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 40rem;
+}
+.workBody{
+    background-image: linear-gradient(to bottom, blue, lawngreen );
 }
 .works{
     text-align: center;
@@ -210,7 +216,8 @@ footer{
 .codlink{
     text-decoration: none;
     padding: 0.5rem ;
-    color: var(--link-color) ;
+    /* color: var(--link-color) ; */
+    color: black;
     border-radius: 1rem;
     background-color:var(--primary-color);
     margin-left:auto;
@@ -219,7 +226,8 @@ footer{
 .codlink2{
     text-decoration: none;
     padding: 0.5rem ;
-    color: var(--link-color) ;
+    /* color: var(--link-color) ; */
+    color: black;
     border-radius: 1rem;
     background-color:var(--primary-color);
     margin-left:auto;
@@ -239,9 +247,9 @@ hr{
     max-width: 900px;
     margin-left:auto ;
     margin-right:auto ;
-    text-shadow: 1px 1px 2px black ;
     padding: 2rem;
-    background-color: var(--tertiary-color);
+    /* background-color: var(--tertiary-color); */
+    background-image: linear-gradient(to left,rgb(125, 221, 216),lawngreen, rgb(125, 221, 216));
     color: black;
     border-radius: 1rem;
     box-shadow: 0px 0px 10px 5px var(--tertiary-color);
@@ -252,16 +260,13 @@ hr{
     max-width: 85%;
     margin-left:auto ;
     margin-right:auto ;
-    text-shadow: 1px 1px 2px black ;
     padding: 2rem;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     border: 1px solid var(--tertiary-color);
     box-shadow: 0px 0px 10px 5px var(--tertiary-color);
     border-radius: 1rem;
 }
 .worpa{
-    /* padding: 4rem; */
-    text-shadow: 1px 1px 2px black ;
     max-width: 800px;
     margin: auto;
     margin-top: 2rem;
@@ -269,14 +274,21 @@ hr{
     display: block;
 }
 .homsec{
-   background-image: url(/src/Technology.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
+    max-width: 600rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: #021b03;
 }
 .homtec{
+    max-width: 600rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom:0rem ;
     text-align: center;
     font-size: 3rem;
+}
+.home{
+    text-align: center;
 }
 .hompa{
    
@@ -288,9 +300,18 @@ hr{
     margin: auto;
     display: block;
 }
-
 .appDivImg {
 font-size: 4rem;
 margin-top: 20rem;
 text-align:center ;
 }
+.projectSection {
+    transform: rotate(180deg);
+}
+.projectSection > .worsec1 {
+    transform: rotate(-180deg);
+}
+.projectSection > .worsec2 {
+    transform: rotate(-180deg);
+}
+

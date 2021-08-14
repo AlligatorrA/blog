@@ -12,7 +12,7 @@ import {
 function Write() {
     return (
 
-        <div >
+        <div className="writeSection">
             <main className="mainwrite" >
                 <section className="bloglink">
                     <a className="poe" href="https://alligatorrswords.blogspot.com/"> Blogs</a>

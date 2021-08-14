@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 
@@ -12,7 +13,7 @@ import {
 
 function Home() {
     return (
-        <div>
+        <div className="home">
 
 
             <main className="homMain" >
@@ -30,7 +31,19 @@ function Home() {
                 <section className="homsec" >
                     <p className="homtec" >Technologies</p>
                     <hr />
-                    <p className="hompa"> I love to code and beutify the Website appearance. I am familiar with HTML, CSS, Bootstrap, NodeJS, ReactJS, GitHub and Web Hosting </p>
+                    <p className="hompa"> I love to code and beautify the Website appearance. I am familiar with HTML5, CSS3, Bootstrap, NodeJS, ReactJS, GitHub and Web Hosting </p>
+                </section>
+                <section className="homsec" >
+                    <p className="homtec" >Projects</p>
+                    <hr />
+                    <p className="hompa"> Lets pay a visit to my project section see what i have for you. </p>
+                    <button>  <Link to="/My Components/Work" className="L1"> Projects </Link></button>
+                </section>
+                <section className="homsec" >
+                    <p className="homtec" >Blogs</p>
+                    <hr />
+                    <p className="hompa"> I am also intrested in writing. sometimes i love poetry as well as blogging. </p>
+                    <button  className="homeBtn">  <Link to="/My Components/Write" className="L1"> Writes </Link></button>
                 </section>
 
             </main>

@@ -22,7 +22,7 @@ function Home() {
                 <div className="am">
                     <h2 className="title" > Hi,  I'm Anand.</h2>
                     <p className="title2">Web Developer</p>
-                    <p className="hompara">  I love web development & designs  sometimes Writing !! </p>
+                    <p className="hompara">  I love web development & designing. sometimes Writing !! </p>
 
 
                 </div>
@@ -31,7 +31,7 @@ function Home() {
                 <section className="homsec" >
                     <p className="homtec" >Technologies</p>
                     <hr />
-                    <p className="hompa"> I love to code and beautify the Website appearance. I am familiar with HTML5, CSS3, Bootstrap, NodeJS, ReactJS, GitHub and Web Hosting </p>
+                    <p className="hompa"> I love to code and beautify the Website appearance. I am familiar with HTML5, CSS3, Bootstrap, NodeJS, ReactJS, JavaScript, GitHub and Web Hosting. </p>
                 </section>
                 <section className="homsec" >
                     <p className="homtec" >Projects</p>
@@ -42,7 +42,7 @@ function Home() {
                 <section className="homsec" >
                     <p className="homtec" >Blogs</p>
                     <hr />
-                    <p className="hompa"> I am also intrested in writing. sometimes i love poetry as well as blogging. </p>
+                    <p className="hompa"> I am also interested in writing. sometimes i love poetry as well as blogging. </p>
                     <button  className="homeBtn">  <Link to="/My Components/Write" className="L1"> Writes </Link></button>
                 </section>
 

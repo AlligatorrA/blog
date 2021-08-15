@@ -48,7 +48,9 @@ function PageNotFound() {
   return (
     <main>
      
-        <h1 className="appDivImg">  <i> Welcome to my portfolio</i>  </h1>
+     <Home />
+     <Route path="/My Components/home" exact={true} > <Home /> </Route>
+        {/* <h1 className="appDivImg">  <i> Welcome to my portfolio</i>  </h1> */}
      
     </main>
 

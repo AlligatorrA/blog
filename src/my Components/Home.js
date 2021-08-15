@@ -49,13 +49,13 @@ function Home() {
             </main>
             <footer >
                 <div >
-                    <a className="footlink" href="https://github.com/AlligatorrA">
+                    <a className="footlink" rel="noreferrer" target="_blank"  href="https://github.com/AlligatorrA">
                         <FontAwesomeIcon icon={faGithub} size="1x" />
                     </a>
-                    <a className="footlink" href="https://twitter.com/Aryakkhauj" >
+                    <a className="footlink" rel="noreferrer" target="_blank"  href="https://twitter.com/Aryakkhauj" >
                         <FontAwesomeIcon icon={faTwitter} size="1x" />
                     </a>
-                    <a className="footlink" href="https://www.linkedin.com/in/anand-raj-b10599171/">
+                    <a className="footlink"  rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/anand-raj-b10599171/">
                         <FontAwesomeIcon icon={faLinkedin} size="1x" />
                     </a>
                 </div>

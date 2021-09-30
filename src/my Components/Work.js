@@ -37,7 +37,7 @@ function Work() {
                             <h1>Emoji Dictionary</h1>
                             <hr />
                             <p className="worpa"> Try this Emoji Dictionary. It returns the Meaning of Emoji. Only for Entertainment purpose. Built-in React js. </p>
-                            <button className="btn2"> <a className="codlink2" rel="noreferrer" target="_blank" href="https://codesandbox.io/s/emoji-dictonary-czbz2">Code</a> </button>
+                            <button className="btn2"> <a className="codlink2" rel="noreferrer" target="_blank" href="https://github.com/AlligatorrA/csb-iwxwv.git">Code</a> </button>
                             <button className="btn2">  <a className="codlink2" rel="noreferrer" target="_blank" href="https://czbz2.csb.app/"> ▶️Live Project</a> </button>
                         </section>
 
